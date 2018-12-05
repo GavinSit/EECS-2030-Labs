@@ -235,7 +235,7 @@ public class RecursiveMethodsTest {
 	@Test
 	public void testInsertIntoSortedArray3() {
 		RecursiveMethods rm = new RecursiveMethods();
-		int[] sa = {1, 3, 5};
+		int[] sa = {1, 3, 5}; 
 		int[] sa1 = rm.insertIntoSortedArray(sa, 1);
 		int[] sa1_ = {1, 1, 3, 5};
 		assertArrayEquals(sa1, sa1_);
